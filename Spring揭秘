@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-15T12:12:20.938Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="OrZAVoQrfzNId0KG_3rF" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-15T12:46:25.391Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="MfrpOo7H6Rq76r8BJvOr" version="17.1.2" type="github">
   <diagram id="gwRn81antHQYWKrJm7CE" name="第 1 页">
     <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -134,6 +134,34 @@
         </mxCell>
         <mxCell id="9HXBMa7rIU380ZzvnlR0-35" value="BeanFactoryPostProcessor&lt;br&gt;修改已经定义的BeanDefinition" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="1018.75" y="592.5" width="242.5" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="9HXBMa7rIU380ZzvnlR0-37" value="«interface»&lt;br&gt;&lt;b&gt;Resource&lt;/b&gt;" style="html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1019" y="830" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9HXBMa7rIU380ZzvnlR0-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="9HXBMa7rIU380ZzvnlR0-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1130" y="855" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9HXBMa7rIU380ZzvnlR0-38" value="«interface»&lt;br&gt;&lt;b&gt;ResourceLoader&lt;/b&gt;" style="html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="830" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9HXBMa7rIU380ZzvnlR0-45" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;fontSize=16;endArrow=block;endFill=0;" edge="1" parent="1" source="9HXBMa7rIU380ZzvnlR0-40" target="9HXBMa7rIU380ZzvnlR0-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9HXBMa7rIU380ZzvnlR0-40" value="DefaultResourceLoader" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="940" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9HXBMa7rIU380ZzvnlR0-46" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;fontSize=16;endArrow=block;endFill=0;" edge="1" parent="1" source="9HXBMa7rIU380ZzvnlR0-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1310" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9HXBMa7rIU380ZzvnlR0-44" value="ResourcePatternLoader" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="940" width="230" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="9HXBMa7rIU380ZzvnlR0-47" value="多资源加载器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="9HXBMa7rIU380ZzvnlR0-44">
+          <mxGeometry y="26" width="230" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
