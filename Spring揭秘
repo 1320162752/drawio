@@ -1,32 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2022-03-11T08:29:39.438Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="PpzSJwzk_KnlmhDg8fLW" version="17.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-15T02:56:40.651Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="m_c8CgnCX6d12V-6_q7x" version="17.1.2" type="github">
   <diagram id="gwRn81antHQYWKrJm7CE" name="第 1 页">
-    <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="cg6ooik7AluOjBkxKSx0-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="120" y="160" width="470" height="310" as="geometry" />
+        <mxCell id="QfByWIYyY4KZOPjpSraB-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="QfByWIYyY4KZOPjpSraB-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="190" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="cg6ooik7AluOjBkxKSx0-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="132.5" y="310" width="265" height="140" as="geometry" />
+        <mxCell id="QfByWIYyY4KZOPjpSraB-4" value="对外" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="QfByWIYyY4KZOPjpSraB-3">
+          <mxGeometry x="0.025" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="cg6ooik7AluOjBkxKSx0-5" value="&lt;h1 style=&quot;text-align: left&quot;&gt;&lt;b style=&quot;font-size: 18px ; text-align: center&quot;&gt;BeanFactory[容器]&lt;/b&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;b style=&quot;font-size: 18px ; text-align: center&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="360" y="180" width="200" height="50" as="geometry" />
+        <mxCell id="QfByWIYyY4KZOPjpSraB-1" value="BeanFactory" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="160" y="270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cg6ooik7AluOjBkxKSx0-6" value="Bean生命周期管理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="172" y="220" width="186" height="50" as="geometry" />
+        <mxCell id="QfByWIYyY4KZOPjpSraB-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="QfByWIYyY4KZOPjpSraB-5" target="QfByWIYyY4KZOPjpSraB-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cg6ooik7AluOjBkxKSx0-7" value="AOP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="390" y="280" width="186" height="50" as="geometry" />
+        <mxCell id="QfByWIYyY4KZOPjpSraB-5" value="&lt;font style=&quot;font-size: 15px&quot;&gt;BeanDefinition&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="650" y="430" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cg6ooik7AluOjBkxKSx0-8" value="Bean创建和管理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="172" y="360" width="160" height="50" as="geometry" />
+        <mxCell id="QfByWIYyY4KZOPjpSraB-6" value="&lt;font style=&quot;font-size: 17px&quot;&gt;BeanDefinitionRegistry&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="440" y="340" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cg6ooik7AluOjBkxKSx0-9" value="&lt;font style=&quot;font-size: 22px&quot;&gt;IOC Object Provider&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#3399FF;" vertex="1" parent="1">
-          <mxGeometry x="140" y="310" width="260" height="70" as="geometry" />
+        <mxCell id="QfByWIYyY4KZOPjpSraB-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="1" source="QfByWIYyY4KZOPjpSraB-7" target="QfByWIYyY4KZOPjpSraB-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cg6ooik7AluOjBkxKSx0-10" value="依赖注入" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="172" y="400" width="160" height="50" as="geometry" />
+        <mxCell id="QfByWIYyY4KZOPjpSraB-7" value="&lt;font style=&quot;font-size: 15px&quot;&gt;BeanDefinition&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="490" y="430" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QfByWIYyY4KZOPjpSraB-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="QfByWIYyY4KZOPjpSraB-8" target="QfByWIYyY4KZOPjpSraB-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QfByWIYyY4KZOPjpSraB-8" value="&lt;font style=&quot;font-size: 15px&quot;&gt;BeanDefinition&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="340" y="430" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QfByWIYyY4KZOPjpSraB-12" value="保存Bean全信息的仓库" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="450" y="300" width="190" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
