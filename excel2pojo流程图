@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-14T08:45:36.445Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="iiafx4K_0uy3LbNee-mT" version="17.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-14T08:46:16.276Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="R3qztgL8iaBjoLNmoTf0" version="17.1.3" type="github">
   <diagram id="NiTplUDVIG-6h_-18b2Q" name="第 1 页">
-    <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1878" dy="860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,55 +8,55 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-P2LtGBDMpiot4-Ivf-u-1" value="开始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="40" width="100" height="50" as="geometry" />
+          <mxGeometry x="120" y="60" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="-P2LtGBDMpiot4-Ivf-u-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-P2LtGBDMpiot4-Ivf-u-2" target="-P2LtGBDMpiot4-Ivf-u-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-P2LtGBDMpiot4-Ivf-u-2" value="读取数据" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="110" y="260" width="120" height="50" as="geometry" />
+          <mxGeometry x="115" y="220" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="-P2LtGBDMpiot4-Ivf-u-4" value="可选读取方式&lt;br&gt;- 从剪贴板读取【简单格式推荐】&lt;br&gt;- 从excel中读取【复杂格式推荐】&lt;br&gt;- 从csv中读取" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="270" y="240" width="200" height="90" as="geometry" />
+          <mxGeometry x="270" y="190" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="-P2LtGBDMpiot4-Ivf-u-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-P2LtGBDMpiot4-Ivf-u-5" target="-P2LtGBDMpiot4-Ivf-u-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-P2LtGBDMpiot4-Ivf-u-5" value="选择数据的索引列&lt;br&gt;名称索引列&lt;br&gt;类型索引列&lt;br&gt;注释索引列" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="110" y="360" width="120" height="80" as="geometry" />
+          <mxGeometry x="115" y="320" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-P2LtGBDMpiot4-Ivf-u-7" value="以示例数据为例子&lt;br&gt;三个索引分别为&lt;br&gt;0, 1, 4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="280" y="350" width="160" height="90" as="geometry" />
+          <mxGeometry x="285" y="310" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="-P2LtGBDMpiot4-Ivf-u-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-P2LtGBDMpiot4-Ivf-u-8" target="-P2LtGBDMpiot4-Ivf-u-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-P2LtGBDMpiot4-Ivf-u-8" value="读取字段数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="127.5" y="470" width="85" height="40" as="geometry" />
+          <mxGeometry x="132.5" y="430" width="85" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-P2LtGBDMpiot4-Ivf-u-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="-P2LtGBDMpiot4-Ivf-u-10" target="-P2LtGBDMpiot4-Ivf-u-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-P2LtGBDMpiot4-Ivf-u-10" value="&lt;font style=&quot;font-size: 15px&quot;&gt;标准化字段数据&lt;/font&gt;&lt;br&gt;标准化字段名称&lt;br&gt;标准化字段类型" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="100" y="555" width="140" height="60" as="geometry" />
+          <mxGeometry x="105" y="515" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-P2LtGBDMpiot4-Ivf-u-12" value="可以修改字段名称标准化器&lt;br&gt;可以扩充字段类型标准化器&lt;br&gt;（目前支持str，date，list，int等）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="280" y="540" width="200" height="90" as="geometry" />
+          <mxGeometry x="285" y="500" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="-P2LtGBDMpiot4-Ivf-u-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="-P2LtGBDMpiot4-Ivf-u-13" target="-P2LtGBDMpiot4-Ivf-u-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-P2LtGBDMpiot4-Ivf-u-13" value="&lt;span style=&quot;font-size: 15px&quot;&gt;生成字段注解&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="100" y="680" width="140" height="60" as="geometry" />
+          <mxGeometry x="105" y="640" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-P2LtGBDMpiot4-Ivf-u-15" value="可以扩充字段注解&lt;br&gt;（目前支持&lt;span style=&quot;font-family: &amp;#34;pingfang sc&amp;#34; ; font-size: 13px&quot;&gt;JsonAlias、&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;pingfang sc&amp;#34; ; font-size: 13px&quot;&gt;JsonProperty、&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;pingfang sc&amp;#34; ; font-size: 13px&quot;&gt;JsonFormat&lt;/span&gt;）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="280" y="665" width="320" height="90" as="geometry" />
+          <mxGeometry x="285" y="625" width="320" height="90" as="geometry" />
         </mxCell>
         <mxCell id="-P2LtGBDMpiot4-Ivf-u-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="-P2LtGBDMpiot4-Ivf-u-16" target="-P2LtGBDMpiot4-Ivf-u-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-P2LtGBDMpiot4-Ivf-u-16" value="&lt;span style=&quot;font-size: 15px&quot;&gt;生成类信息，拼装字段信息和字段注解&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="35" y="790" width="270" height="40" as="geometry" />
+          <mxGeometry x="40" y="750" width="270" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-P2LtGBDMpiot4-Ivf-u-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="-P2LtGBDMpiot4-Ivf-u-18" target="-P2LtGBDMpiot4-Ivf-u-2">
           <mxGeometry relative="1" as="geometry" />
@@ -71,10 +71,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-P2LtGBDMpiot4-Ivf-u-21" value="&lt;span style=&quot;font-size: 15px&quot;&gt;写入文件&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="87.5" y="880" width="165" height="40" as="geometry" />
+          <mxGeometry x="92.5" y="840" width="165" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-P2LtGBDMpiot4-Ivf-u-23" value="结束" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="115" y="960" width="110" height="50" as="geometry" />
+          <mxGeometry x="120" y="920" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
