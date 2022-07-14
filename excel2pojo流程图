@@ -1,1 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2022-07-14T08:34:55.697Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="17.1.3" etag="uP1gr354FO2RiYr0TtoQ" type="github"><diagram id="NiTplUDVIG-6h_-18b2Q">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-14T08:38:22.855Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="gvwQa9ilph93XGYwBx1Z" version="17.1.3" type="github">
+  <diagram id="NiTplUDVIG-6h_-18b2Q" name="第 1 页">
+    <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-P2LtGBDMpiot4-Ivf-u-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-P2LtGBDMpiot4-Ivf-u-1" target="-P2LtGBDMpiot4-Ivf-u-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-P2LtGBDMpiot4-Ivf-u-1" value="开始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="170" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-P2LtGBDMpiot4-Ivf-u-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-P2LtGBDMpiot4-Ivf-u-2" target="-P2LtGBDMpiot4-Ivf-u-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-P2LtGBDMpiot4-Ivf-u-2" value="读取数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="260" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-P2LtGBDMpiot4-Ivf-u-4" value="可选读取方式&lt;br&gt;- 从剪贴板读取【简单格式推荐】&lt;br&gt;- 从excel中读取【复杂格式推荐】&lt;br&gt;- 从csv中读取" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="240" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="-P2LtGBDMpiot4-Ivf-u-5" value="选择数据的索引列&lt;br&gt;名称索引列&lt;br&gt;类型索引列&lt;br&gt;注释索引列" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="360" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-P2LtGBDMpiot4-Ivf-u-7" value="以示例数据为例子&lt;br&gt;三个索引分别为&lt;br&gt;0, 1, 4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="350" width="160" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
